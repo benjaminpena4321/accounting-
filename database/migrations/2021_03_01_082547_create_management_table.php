@@ -17,6 +17,7 @@ class CreateManagementTable extends Migration
             $table->id();
             $table->string('name',100);
             $table->string('level',100);
+            $table->softDeletes();
             $table->timestamps();
         });
     }

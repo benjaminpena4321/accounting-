@@ -13,7 +13,9 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+    //    app()->bind('sample', function(){
+    //         return "this is as sample service providers";
+    //    });
     }
 
     /**

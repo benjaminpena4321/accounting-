@@ -1,5 +1,12 @@
 @extends('layouts.app')
 
+
+<style>
+    center h1 {
+        font-family: 'Oswald', sans-serif;
+
+    }
+</style>
 @section('content')
 <div class="container">
     <div class="row ">
@@ -12,6 +19,10 @@
                             {{ session('status') }}
                         </div>
                     @endif
+
+
+                    <center> <h1> Dashboard </h1></center>
+                   
 
                 </div>
             </div>
